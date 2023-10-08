@@ -2,7 +2,7 @@
   "name": "my-blog",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm",
+  "packageManager": "pnpm@6.14.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
