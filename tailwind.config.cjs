@@ -1,0 +1,58 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+	content: ['./src/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue,md,mdx}'],
+	safelist: [
+		"text-4xl", 
+		"text-3xl", 
+		"text-2xl", 
+		"text-xl", 
+		"text-lg", 
+		"text-sm",
+		"text-base", 
+		"text-white", 
+		"text-slate-300",
+		"font-semibold",
+		"font-black",
+		"font-sans",
+		"font-serif",
+		"font-mono",
+		"list-disc", 
+		"list-inside", 
+		"bg-gray-800", 
+		"p-4", 
+		"rounded-md", 
+		"flex",
+		"flex-col",
+		"flex-wrap",
+		"justify-center",
+		"items-center",
+		"border",
+		"border-gray-800",
+		"border-opacity-50",
+		"border-solid",
+		"border-2",
+		"border-b-2",
+		"max-w-2xl",
+		"max-w-3xl",
+		"max-w-4xl",
+		"max-w-5xl",
+		"text-center",
+		"mt-8",
+		"mb-20",
+		"mb-4",
+		"mb-6",
+		"w-full",
+		"mx-4"
+	],
+	theme: {
+		extend: {
+			colors: {
+				"primary": "#09182F",
+				"secondary": "#50C5B4",
+				"terciary": "#112F5B",
+				"borderColor": "#0D2242"
+			  }
+		},
+	},
+	plugins: [],
+}
