@@ -5,6 +5,7 @@ author: Lisandro Fernandez
 description: Lo que el individuo quiere ser y lo que él va a hacer
 date: 08 oct 2023
 slug: proyecto-o-plan-de-vida
+categories: ["career", "personal"]
 ---
 
 ##### 08 oct 2023
