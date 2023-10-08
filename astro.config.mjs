@@ -23,6 +23,6 @@ export default defineConfig({
       "pre": "bg-gray-800 p-4 rounded-md"
     }]]
   },
-  output: "server",
+  output: "hybrid",
   adapter: vercel()
 });
